@@ -37,7 +37,7 @@ template do
   parameter 'RdbmsInstanceType',
             :Description => 'Relational database instance type',
             :Type => 'String',
-            :Default => 't2.micro',
+            :Default => 'c4.xlarge',
             :AllowedValues => [
                 't2.micro',
                 't2.small',
